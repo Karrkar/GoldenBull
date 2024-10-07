@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    --tg-color-scheme: light;
+    --tg-bg-color: #ffffff;
+    --tg-secondary-bg-color: #f7f7f7;
+    --tg-text-color: #333333;
+    --tg-accent-color: #0088cc;
+    background-color: var(--tg-bg-color);
+    color: var(--tg-text-color);
+}
+
+.slot-machine {
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: var(--tg-secondary-bg-color);
+}
+
+.reels {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.reel {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+#spin-button, #stop-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#pay-table {
+    margin-bottom: 20px;
+}
+
+#sound-button, #vibration-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#balance {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Dark theme */
+body.dark {
+    --tg-color-scheme: dark;
+    --tg-bg-color: #1c1c1d;
+    --tg-secondary-bg-color: #2c2c2e;
+    --tg-text-color: #ffffff;
+    --tg-accent-color: #0088cc;
+}

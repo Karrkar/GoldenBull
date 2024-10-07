@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bull Slot Machine</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <div class="slot-machine">
+        <div class="reels">
+            <div class="reel" id="reel-1"></div>
+            <div class="reel" id="reel-2"></div>
+            <div class="reel" id="reel-3"></div>
+        </div>
+        <button id="spin-button">Spin</button>
+        <button id="stop-button" style="display: none;">Stop</button>
+        <div id="pay-table"></div>
+        <button id="sound-button">Sound: On</button>
+        <button id="vibration-button">Vibration: On</button>
+        <input id="bet-amount" type="number" placeholder="Ставка" value="1">
+        <div id="balance">Баланс: 20</div>
+        <button id="deposit-button">Пополнить баланс</button>
+        <button id="withdraw-button">Вывести баланс</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<script src="script.js"></script>
+<link rel="stylesheet" href="styles.css">
